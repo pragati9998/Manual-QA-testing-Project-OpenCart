@@ -1,0 +1,21 @@
+Requirement ID,Requirement Description,Module,Test Case ID,Test Case Name,Priority,Status
+REQ_001,The website should allow a new user to create an account with valid details,User Registration,TC_001,Verify user can register with valid details,High,Not Run
+REQ_002,The system should show an error when the email field is left empty during registration,User Registration,TC_002,Verify error message when email field is left empty,High,Not Run
+REQ_003,The system should not allow registration with an email that is already registered,User Registration,TC_003,Verify error message when registering with an already existing email,High,Not Run
+REQ_004,The password field should hide the characters typed by the user,User Registration,TC_004,Verify password field does not show characters in plain text,Medium,Not Run
+REQ_005,The user must agree to the Privacy Policy before completing registration,User Registration,TC_005,Verify user cannot register without agreeing to Privacy Policy,High,Not Run
+REQ_006,A registered user should be able to log in with correct email and password,User Login,TC_006,Verify user can login with valid credentials,High,Not Run
+REQ_007,The system should show an error when the wrong password is entered,User Login,TC_007,Verify error message when wrong password is entered,High,Not Run
+REQ_008,The system should show an error when login is attempted with empty fields,User Login,TC_008,Verify error when both email and password fields are empty,High,Not Run
+REQ_009,A user who forgot their password should be able to request a reset link,User Login,TC_009,Verify Forgotten Password link is visible and clickable,Medium,Not Run
+REQ_010,A logged-in user should be able to log out of their account,User Login,TC_010,Verify user can log out successfully,High,Not Run
+REQ_011,The search bar should return matching products when a valid name is entered,Search,TC_011,Verify search returns results for a valid product name,High,Not Run
+REQ_012,The search should show a no results message when no product matches the search term,Search,TC_012,Verify search with a product name that does not exist,Medium,Not Run
+REQ_013,Submitting the search bar empty should not cause a site error,Search,TC_013,Verify search bar works when left empty and submitted,Low,Not Run
+REQ_014,A user should be able to add a product to the shopping cart from the product page,Add to Cart,TC_014,Verify user can add a product to cart from the product page,High,Not Run
+REQ_015,The cart icon should update to show the correct number of items after adding a product,Add to Cart,TC_015,Verify cart icon shows the correct number of items,Medium,Not Run
+REQ_016,A user should be able to remove items from the shopping cart,Shopping Cart,TC_016,Verify user can remove a product from the cart,High,Not Run
+REQ_017,A user should be able to change the quantity of a product in the cart and see the updated total,Shopping Cart,TC_017,Verify user can update product quantity in the cart,High,Not Run
+REQ_018,A logged-in user should be able to add products to their wishlist,Wishlist,TC_018,Verify logged-in user can add a product to wishlist,Medium,Not Run
+REQ_019,A guest user should be redirected to login when trying to use the wishlist,Wishlist,TC_019,Verify a guest user cannot add to wishlist,Medium,Not Run
+REQ_020,A user should be able to submit the Contact Us form with valid details,Contact Us,TC_020,Verify Contact Us form submits successfully with all valid inputs,Low,Not Run
